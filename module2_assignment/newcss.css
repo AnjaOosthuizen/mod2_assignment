@@ -1,0 +1,84 @@
+
+h1 {
+    text-align: center;
+}
+.col1 p{
+   padding: 3px;
+}
+.col1 div {
+    border: 1px solid black; 
+    float: right;
+    width: 100px;
+    text-align: center;
+    background-color: lightpink;
+}
+.col1 {
+    border: 1px solid black; 
+    width: 30%;
+    float:left; 
+    margin-right: 4%;
+    background-color: yellow;
+    
+}
+.col2 p{
+   padding: 3px; 
+}
+.col2 div {
+    border: 1px solid black; 
+    float: right;
+    width: 100px;
+    text-align: center;
+    background-color: lightblue;
+}
+.col2 {
+    border: 1px solid black; 
+    width: 30%;
+    float:left; 
+    margin-right: 4%;
+    background-color: lightsalmon;
+}
+.col3 p{
+    padding: 3px;
+}
+.col3 div {
+    border: 1px solid black; 
+    float: right;
+    width: 100px;
+    text-align: center;
+    background-color: gray;
+}
+.col3 {
+    border: 1px solid black; 
+    width: 30%;
+    float:left; 
+    background-color: yellowgreen;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col1{
+        width: 48%;
+        margin-right: 3%;
+    }
+    .col2{
+        width: 48%;
+        margin-right: 0;
+    }
+    .col3{
+        width: 100%;
+        margin-top:20px;
+    }
+}
+
+@media (max-width: 767px){
+    .col1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .col2 {
+        width: 100%;
+        margin-bottom: 20px;    
+    }
+    .col3 {
+        width: 100%;
+    }
+}
